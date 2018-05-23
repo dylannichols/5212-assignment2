@@ -1,0 +1,21 @@
+﻿<Window x:Class="WpfApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Slider Name="blue" Minimum="0" Maximum="255" HorizontalAlignment="Left" Margin="96,283,0,0" VerticalAlignment="Top" Width="335" ValueChanged="SliderEvent"/>
+        <Slider Name="green" Minimum="0" Maximum="255" HorizontalAlignment="Left" Margin="96,253,0,0" VerticalAlignment="Top" Width="335" ValueChanged="SliderEvent"/>
+        <Slider Name="red" Minimum="0" Maximum="255" HorizontalAlignment="Left" Margin="96,224,0,0" VerticalAlignment="Top" Width="335" ValueChanged="SliderEvent"/>
+        <Rectangle Name="rect" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="141" Margin="96,59,0,0" Stroke="Black" VerticalAlignment="Top" Width="329"/>
+        <Label Name="toplabel" Content="Color" HorizontalAlignment="Left" Margin="195,0,0,0" VerticalAlignment="Top" Width="135" Height="54" FontSize="30" RenderTransformOrigin="1.03,0.496"/>
+        <Label Name="redLabel" Content="Red: 00" HorizontalAlignment="Left" Margin="35,219,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="greenLabel" Content="Green: 00" HorizontalAlignment="Left" Margin="34,248,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="blueLabel" Content="Blue: 00" HorizontalAlignment="Left" Margin="37,277,0,0" VerticalAlignment="Top"/>
+        <Button Content="Random Color" HorizontalAlignment="Left" Margin="17,10,0,0" VerticalAlignment="Top" Width="114" Height="35" Click="Button_Click"/>
+
+    </Grid>
+</Window>
