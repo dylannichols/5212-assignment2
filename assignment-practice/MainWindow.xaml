@@ -18,7 +18,7 @@
         <TextBox Name="Passwords" Grid.Row="1" Margin="30,60,30,0"/>
 
         <Button x:Name="button1" Click="UserLogin" Content="Login as User" Grid.Row="2"  Margin="61,30,287,30" Width="100" HorizontalAlignment="Center"/>
-        <Button x:Name="button3" Content="Login as Admin" Grid.Row="2"  Margin="273,30,75,30" Width="100" HorizontalAlignment="Center"/>
+        <Button x:Name="button2" Content="Login as Admin" Click="AdminLogin" Grid.Row="2"  Margin="273,30,75,30" Width="100" HorizontalAlignment="Center"/>
 
 
     </Grid>

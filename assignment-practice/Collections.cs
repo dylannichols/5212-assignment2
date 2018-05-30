@@ -8,7 +8,7 @@ namespace assignment_practice
 {
     static class Collections
     {
-        public static Dictionary<User, string> Users {get; set;}
+        public static Dictionary<string, User> Users {get; set;}
        
         public static List<Message> Messages { get; set; }
     }
